@@ -1,2 +1,2 @@
 # com714
-A repository for OO Programming modules.
+University work for COM714 - Software Design and Development.
