@@ -3,23 +3,20 @@
 def box_phrase():
     phrase = input("Enter a Phrase: ")
     option = int(input("Enter a choice between 1-4: "))
+    padding = len(phrase) + 1
+    row = len(phrase) + 4
+    h = ''.join(['+'] + ['-' * row] + ['+'])
 
     if option == 1:
-        row = len(phrase) + 4
-        h = ''.join(['+'] + ['-' * row] + ['+'])
-        result = h + '\n'"|" '\n' + phrase + '\n' "|"'\n' + h
+        result = h + '\n'"|" + "  " + phrase + "  " + "|"'\n' + h
         print(result)
 
     elif option == 2:
-        row = len(phrase) + 4
-        h = ''.join(['+'] + ['-' * row] + ['+'])
-        result = phrase + h + '\n'"|" "|"'\n' + h
+        result = '\n' + (' ' * padding) + h + '\n' + phrase + " " + "|" + (' ' * row) + "|"'\n' + (' ' * padding) + h
         print(result)
 
     elif option == 3:
-        row = len(phrase) + 4
-        h = ''.join(['+'] + ['-' * row] + ['+'])
-        result = h + '\n'"|" "|"'\n' + h + phrase
+        result = '\n' + h + '\n' + "|" + (' ' * row) + "|" + " " + phrase + '\n' + h
         print(result)
 
     elif option == 4:
