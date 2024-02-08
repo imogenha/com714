@@ -1,6 +1,7 @@
 import unittest
 from human import Human
 
+
 class TestHuman(unittest.TestCase):
 
     def test_eat(self) -> None:

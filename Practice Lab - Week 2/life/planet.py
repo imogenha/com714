@@ -1,3 +1,6 @@
+from human import Human
+
+
 class Planet:
     def __init__(self, name: str = ''):
         self.__name = name
@@ -9,19 +12,17 @@ class Planet:
     def __str__(self):
         return f'Planet {self.__name} has {self.__humans} humans.'
 
-    def add(self, human:Human) -> bool:
+    def add(self, human: Human) -> bool:
         self.__humans.append(human)
         return human in self.__humans
 
-    def remove(self, human:Human) -> bool:
+    def remove(self, human: Human) -> bool:
         self.__humans.remove(human)
         return human in self.__humans
 
-    def has(self, human:Human) -> bool:
+    def has(self, human: Human) -> bool:
         return human in self.__humans
 
+    def population(self):
+        return len(self.__humans)
 
-p1 = Planet(name='Orb')
-
-print(p1.add(human))
-print(p1.has(human))
