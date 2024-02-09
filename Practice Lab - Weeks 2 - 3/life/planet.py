@@ -26,3 +26,12 @@ class Planet:
     def population(self):
         return len(self.__humans)
 
+
+class NonPlanet:
+
+    def __init__(self, name: str = ''):
+        self.__name = name
+        self.__humans = []
+
+    def population(self):
+        return len(self.__humans)
