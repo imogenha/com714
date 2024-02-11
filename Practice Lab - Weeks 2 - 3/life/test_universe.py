@@ -8,10 +8,10 @@ class TestUniverse(unittest.TestCase):
         u1 = Universe()
         self.assertEqual(u1.generate(), True, "Output should be true.")
 
-    def test_display_planet(self):
+    def test_display_entity(self):
         # Comparing intended output against expected output.
         u1 = Universe()
-        self.assertEqual(u1.display_planet(), None, "Output should be none.")
+        self.assertEqual(u1.display_entity(), None, "Output should be none.")
 
     def test_display_nonplanet(self):
         # Comparing intended output against expected output.
