@@ -1,6 +1,6 @@
 from planet import Planet
 from planet import NonPlanet
-import random
+from typing import List
 
 
 class Universe:
@@ -9,18 +9,21 @@ class Universe:
         self.__planets = []
         self.__nonplanets = []
 
-    def generate(self) -> bool:
-        items = [Planet, NonPlanet]
-        selected_item = random.choice(items)
-        if selected_item == Planet:
-            planet = Planet()
+    def generate_planet(self, planet_names: List[str]) -> bool:
+        generated_planets = []
+        planet = Planet()
+        for planet in planet_names:
             self.__planets.append(planet)
-            return planet in self.__planets
+            generated_planets.append(planet)
+        return planet in generated_planets
 
-        else:
-            non_planet = NonPlanet()
-            self.__nonplanets.append(non_planet)
-            return non_planet in self.__nonplanets
+    def generate_entity(self, entity_names: List[str]) -> bool:
+        generated_entities = []
+        entity = NonPlanet
+        for entity in entity_names:
+            self.__nonplanets.append(entity)
+            generated_entities.append(entity)
+        return entity in generated_entities
 
     def __str__(self):
         return f'This universe has {len(self.__planets)} planets, and {len(self.__nonplanets)} other entities.'
@@ -37,5 +40,5 @@ class Universe:
 
 u1 = Universe()
 
+print(u1.generate_entity(['E1', 'E2']))
 print(u1.__str__())
-print(u1.display_entity())

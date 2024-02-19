@@ -1,8 +1,12 @@
+from clothing import Clothing
+
+
 class Human:
     MAX_ENERGY = 100
 
     def __init__(self, name: str, age: int = 0, energy: int = 100) -> None:
         self.name = name
+        self.clothing = []
         self.age = age
         self.energy = energy
 
@@ -52,4 +56,11 @@ class Human:
             print(f'{self.name} has no energy to move!')
         return can_move
 
+    def dress(self, clothing: Clothing) -> bool:
+        self.clothing.append(clothing)
+        return clothing in self.clothing
+
+    def undress(self, clothing: Clothing) -> bool:
+        self.clothing.remove(clothing)
+        return clothing in self.clothing
 
