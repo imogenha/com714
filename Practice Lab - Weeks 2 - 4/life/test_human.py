@@ -49,7 +49,7 @@ class TestHuman(unittest.TestCase):
     def test_dress(self) -> None:
         # Tests that objects of the Clothing class can successfully be appended and removed from an instance array.
         human_test = Human("Jack")
-        clothes_item = Clothing("red", "wool", ClothingSize("small"))
+        clothes_item = Clothing("red", "wool", ClothingSize(2))
         self.assertEqual(human_test.dress(clothes_item), True, "Should return True if successful.")
         self.assertEqual(human_test.undress(clothes_item), False, "Should return False if successful.")
 

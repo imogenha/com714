@@ -2,7 +2,6 @@ from planet import Planet
 from planet import NonPlanet
 from typing import List
 
-
 class Universe:
 
     def __init__(self):
