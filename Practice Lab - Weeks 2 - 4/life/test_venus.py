@@ -14,6 +14,6 @@ class TestFlytrap(unittest.TestCase):
 
     def test_catch(self):
         # Method output should change the value of the class instance of 'Colour'.
-        self.assertEqual(self.flytrap_1.catch(3), 40 or 43, "Output should be a string.")
+        self.assertIn(self.flytrap_1.catch(3), [40, 43], "Output should match one in the defined set.")
 
-        self.assertEqual(self.flytrap_2.catch(-1), 40, "Output should be a string.")
+        self.assertEqual(self.flytrap_2.catch(-1), 40, "Function should alert an error.")
