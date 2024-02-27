@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T12:37:27.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="eNyZaWCAbkKpTJAcmG1c" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T12:48:38.616Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="aaVn_V349Pee0OBGhnI-" version="23.1.7" type="github">
   <diagram name="Page-1" id="dfdLbOL69aztx6deqZEW">
     <mxGraphModel dx="538" dy="924" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,6 +30,30 @@
         </mxCell>
         <mxCell id="PifL702_PgJTfO9jbnAJ-9" value="Generate total invoices for trips" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-7">
           <mxGeometry y="71" width="193" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.337;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="PifL702_PgJTfO9jbnAJ-7" target="PifL702_PgJTfO9jbnAJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-12" value="is" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="224" y="156" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="PifL702_PgJTfO9jbnAJ-14" target="PifL702_PgJTfO9jbnAJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-14" value="TripManager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="118" y="335" width="193" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-15" value="Create, view, update, and delete trip managers." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-14">
+          <mxGeometry y="26" width="193" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-16" value="View, update, and delete trip invoices and payments." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-14">
+          <mxGeometry y="71" width="193" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-21" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-14">
+          <mxGeometry y="113" width="193" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-18" value="is" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="183" y="306" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
