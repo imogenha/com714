@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T12:24:47.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.7" etag="-WKudb535pTTeMf4BLIO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T12:37:27.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="eNyZaWCAbkKpTJAcmG1c" version="23.1.7" type="github">
   <diagram name="Page-1" id="dfdLbOL69aztx6deqZEW">
-    <mxGraphModel>
+    <mxGraphModel dx="538" dy="924" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PifL702_PgJTfO9jbnAJ-1" value="TripCoordinator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=28;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="-21" width="187" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-2" value="Manage Passengers" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-1">
+          <mxGeometry y="28" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-3" value="Update trip legs" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-1">
+          <mxGeometry y="54" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-4" value="Generate itineraries" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-1">
+          <mxGeometry y="80" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-5" value="Handle Payments" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-1">
+          <mxGeometry y="106" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-6" value="Generate reciepts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-1">
+          <mxGeometry y="132" width="187" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-7" value="TripManager" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="118" y="193" width="193" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-8" value="Create, view, update and delete trip coordinators." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-7">
+          <mxGeometry y="26" width="193" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PifL702_PgJTfO9jbnAJ-9" value="Generate total invoices for trips" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="PifL702_PgJTfO9jbnAJ-7">
+          <mxGeometry y="71" width="193" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
